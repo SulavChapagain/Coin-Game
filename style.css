@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #E90C0C;
+    color: #FFDD00 !important;
+    font-family: 'Baloo 2', cursive;
+}
+html{
+    font-size: 20px;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    width: 150px;
+    height: 49px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/* Navigation */
+.navbar{
+    margin: 10px;
+}
+.navbar .navigation{
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar .navigation .right img{
+    width: 30px;
+}
+
+/* body */
+.body .body-contain img{
+    width: 330px;
+    height: 330px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 51px;
+}
+.body .body-btn{
+    justify-content: space-evenly;
+    margin-top: 2rem;
+}
+
+.body .body-btn #HEAD{
+    background-color: #FF8000;
+    color: #FFDD00;
+    font-family: 'Baloo 2', cursive;
+}
+.body .body-btn #Tails{
+    background-color: #3BB54A;
+    color: #FFDD00;
+    font-family: 'Baloo 2', cursive;
+}
+.body .coin{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 45px
+}
+.body .coin img{
+    position: absolute;
+    width: 400px;
+}
